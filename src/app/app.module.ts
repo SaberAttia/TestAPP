@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
+import { TestComponent } from './test-component/test.component';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 import { TestService } from './servies/test.service';
 import { TestInterceptor } from './helpers/test.interceptor';
-import { TestModule } from './module/test/test.module';
+import { TestModule } from './test-module/test.module';
 
 @NgModule({
   declarations: [
